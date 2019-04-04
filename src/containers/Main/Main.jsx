@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import './Main.scss';
+
+import Home from '../Home';
 
 class Main extends Component {
   constructor(props) {
@@ -10,10 +13,7 @@ class Main extends Component {
   render() {
     return (
       <div className="main">
-        <div className="home">Welcome</div>
-        <div className="about">Gene Hall</div>
-        <div className="projects">MoodJournal</div>
-        <div className="contact">Contact Me</div>
+        <Home />
       </div>
     );
   }
