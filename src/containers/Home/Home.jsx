@@ -30,10 +30,13 @@ class Home extends Component {
     };
 
     return (
-      <div className="home">
-        <div className="title">
-          <h1>Gene Hall</h1>
-          <h2>Software Developer</h2>
+      <section className="home">
+        <div className="content">
+          <h1>
+            Hello, I'm <span className="name">Gene Hall.</span>
+          </h1>
+          <h2>I'm a full-stack web developer.</h2>
+          <button className="btn">View my work</button>
         </div>
         <div className="video-background">
           <div className="video-foreground">
@@ -46,7 +49,7 @@ class Home extends Component {
             />
           </div>
         </div>
-      </div>
+      </section>
     );
   }
 }
