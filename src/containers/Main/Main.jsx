@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Main.scss';
 
 import Home from '../Home';
+import About from '../../Components/About';
 
 class Main extends Component {
   constructor(props) {
@@ -14,6 +15,7 @@ class Main extends Component {
     return (
       <div className="main">
         <Home />
+        <About />
       </div>
     );
   }
